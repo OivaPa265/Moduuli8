@@ -1,6 +1,6 @@
 import mysql.connector
 
-from ttt import yhteys
+from 1 import yhteys
 yhteys = mysql.connector.connect(
     host='127.0.0.1',
     port= 3306,
