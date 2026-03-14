@@ -27,8 +27,8 @@ def hae_kentan_tiedot(icao):
         }
 
 # kysyy käyttäjältä ensimäisen ja toisen kentän icao koodin
-icao1 = input("Anna ensimmäisen kentän ICAO-koodi: ").upper()
-icao2 = input("Anna toisen kentän ICAO-koodi: ").upper()
+icao1 = input("Anna ensimmäisen kentän ICAO-koodi ESIM EFHK: ").upper()
+icao2 = input("Anna toisen kentän ICAO-koodi ESIM EIDW: ").upper()
 
 # lisää kentät pää ohjelmaan
 kentta1 = hae_kentan_tiedot(icao1)
